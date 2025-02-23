@@ -18,7 +18,10 @@
 }
 
 img {
-    border-radius: 50px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
     display: block;
     margin: 0 auto;
 }
@@ -28,7 +31,7 @@ body {
     font-family: "Open Sans", serif;
 }
 
-p {
+.colorGrey {
     color: var(--grey);
 }
 
