@@ -5,8 +5,12 @@
     text-align: center;
 }
 
+.navContainer {
+    background-color: var(--primary);
+}
+
 .navTitle {
-    color: var(--primary);
+    color: var(--white);
     font-size: 20px;
     margin: 0;
     font-weight: normal;
