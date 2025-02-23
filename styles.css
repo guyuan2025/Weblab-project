@@ -6,6 +6,7 @@
 }
 
 .navContainer {
+    padding: var(--s) var(--m);
     background-color: var(--primary);
 }
 
@@ -22,11 +23,21 @@ img {
 }
 
 body {
+    margin: 0;
     font-family: "Open Sans", serif;
+}
+
+p {
+    color: var(--grey);
 }
 
 :root {
     --primary: #396dff;
-    --grey: #f7f7f7;
+    --grey: #766c6c;
     --white: #fff;
+
+    --xs: 4px;
+    --s: 8px;
+    --m: 16px;
+    --l: 24px;
 }
