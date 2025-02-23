@@ -1,4 +1,7 @@
 /* Your Code Here! */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
 .u-textCenter {
     text-align: center;
 }
@@ -6,4 +9,8 @@
 img {
     display: block;
     margin: 0 auto;
+}
+
+body {
+    font-family: "Open Sans", serif;
 }
